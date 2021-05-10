@@ -13,7 +13,12 @@ appropriate data structure. The user can manipulate the shapes in different ways
 <br/>
 **In the prototype that you are implementing, the user should be able to:** <br/>
 1) Change default size for shapes.<br/>
-2) List the shapes that the user has created with all their associate information (ex., type,
+2) Following shapes should be supported: square, rectangle, circle, pentagon and trapezium. <br/>
+3) Shapes can have a color and a border. Borders can have different thickness and pattern
+(solid line, dotted line, dashed line, etc.). Both color and shape should have default
+values of your choice, but the user should be able to change them for each instance of a
+shape. For example, the user might want to have a blue and a red trapezium. <br/>
+3) List the shapes that the user has created with all their associate information (ex., type,
 size, character).<br/>
 3) View the history of the shape creation sequences. In other words, list all sequences of
 shapes that she/he has created since the application is running.<br/>
@@ -23,6 +28,10 @@ history and the shapes should be created.<br/>
 need to be updated accordingly.<br/>
 6) Compute the area of a sequence of shapes, which is the cumulative area of all existing
 shapes.<br/>
-7) Filter shapes on specific criteria, such as the area of the shape. For example, the user
+7) Filter shapes on specific criteria, such as the area of the shape, color and on thickness.. For example, the user
 might want to know what are all shapes whose area is less than or equal to a certain
 threshold.<br/>
+8) The application should allow the user to undo/redo all operations since the application
+has been last started. This means that there is no need to think about making the
+undo/redo stack persistent.<br/>
+9) The application should be able to save and load data from an XML file.
