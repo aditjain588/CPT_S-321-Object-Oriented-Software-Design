@@ -19,14 +19,14 @@ associated with that product at the moment in the store must be displayed. If th
 enters an empty sequence of characters, i.e., she/he simply hits enter or space(s), then the<br/>
 result should be all products in the store.<br/>
 </br>
-**- Save search:** If an employee selects this functionality, the last search that was performed
-will be saved to a file in a subdirectory of the project called “searches”. The file name should
+**- Save search:** If an employee selects this functionality, the last search that was performed<br/>
+will be saved to a file in a subdirectory of the project called “searches”. The file name should<br/>
 indicate the date and time that the search was performed in the following format: yyyy-
-<mm>-<dd>-<hh>h<mm>m<ss>s.txt. For example, if the search was performed at
-8:34:30pm on February 4, 2021 the filename would be “2021-02-04-20h34m30s.txt”
-The first line of the file should contain the sequences of characters that the employee used
-for the search and whether it was an AND or OR search if applicable. The rest of the file, i.e.,
-starting from line 2, must contain the result of the search as it was shown to the employee.
+mm-dd-hh-mm-ss.txt. For example, if the search was performed at<br/>
+8:34:30pm on February 4, 2021 the filename would be “2021-02-04-20h34m30s.txt”<br/>
+The first line of the file should contain the sequences of characters that the employee used<br/>
+for the search and whether it was an AND or OR search if applicable. The rest of the file, i.e.,<br/>
+starting from line 2, must contain the result of the search as it was shown to the employee.<br/>
 </br>
 **- Restock:** If an employee selects this functionality, all physical products with less than N<br/>
 items will be restocked, where N is provided by the employee. First, the list of products that<br/>
