@@ -5,6 +5,7 @@ Products can be physical (ex. pen) or electronic (ex. e-book). For physical prod
 or more items of a certain product available at a specific moment. Electronic products are unlimited.<br/>
 <br/>
 **The set of features that the software must support are the following:**<br/>
+</br>
 **- Search:** An employee can search for a product in the store database. Employees will enter a<br/>
 sequence of characters (which can enter either be a (partial) code and/or keywords) and the<br/>
 search should be performed on all possible fields (i.e., the employee should not be asked<br/>
@@ -17,14 +18,16 @@ that matches the search all available information about the product and the curr
 associated with that product at the moment in the store must be displayed. If the user 4<br/>
 enters an empty sequence of characters, i.e., she/he simply hits enter or space(s), then the<br/>
 result should be all products in the store.<br/>
-**- Save search:** If an employee selects this functionality, the last search that was performed<br/>
-will be saved to a file in a subdirectory of the project called “searches”. The file name should<br/>
-indicate the date and time that the search was performed in the following format: <yyyy>
-<mm>-<dd>-<hh>h<mm>m<ss>s.txt. For example, if the search was performed at<br/>
-8:34:30pm on February 4, 2021 the filename would be “2021-02-04-20h34m30s.txt”<br/>
-The first line of the file should contain the sequences of characters that the employee used<br/>
-for the search and whether it was an AND or OR search if applicable. The rest of the file, i.e.,<br/>
-starting from line 2, must contain the result of the search as it was shown to the employee.<br/>
+</br>
+**- Save search:** If an employee selects this functionality, the last search that was performed
+will be saved to a file in a subdirectory of the project called “searches”. The file name should
+indicate the date and time that the search was performed in the following format: <yyyy>-
+<mm>-<dd>-<hh>h<mm>m<ss>s.txt. For example, if the search was performed at
+8:34:30pm on February 4, 2021 the filename would be “2021-02-04-20h34m30s.txt”
+The first line of the file should contain the sequences of characters that the employee used
+for the search and whether it was an AND or OR search if applicable. The rest of the file, i.e.,
+starting from line 2, must contain the result of the search as it was shown to the employee.
+</br>
 **- Restock:** If an employee selects this functionality, all physical products with less than N<br/>
 items will be restocked, where N is provided by the employee. First, the list of products that<br/>
 match the search will be shown, i.e., all products where the number of items is less than N.<br/>
