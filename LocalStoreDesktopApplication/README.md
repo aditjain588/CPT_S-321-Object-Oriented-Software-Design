@@ -19,7 +19,7 @@ enters an empty sequence of characters, i.e., she/he simply hits enter or space(
 result should be all products in the store.<br/>
 **- Save search:** If an employee selects this functionality, the last search that was performed<br/>
 will be saved to a file in a subdirectory of the project called “searches”. The file name should<br/>
-indicate the date and time that the search was performed in the following format: <yyyy>-
+indicate the date and time that the search was performed in the following format: <yyyy>
 <mm>-<dd>-<hh>h<mm>m<ss>s.txt. For example, if the search was performed at<br/>
 8:34:30pm on February 4, 2021 the filename would be “2021-02-04-20h34m30s.txt”<br/>
 The first line of the file should contain the sequences of characters that the employee used<br/>
