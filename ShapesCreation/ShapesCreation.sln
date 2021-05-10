@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapesCreation", "ShapesCreation\ShapesCreation.csproj", "{C54BA58F-37D1-4282-8289-41D7120A1B11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapesCreationTests", "ShapesCreationTests\ShapesCreationTests.csproj", "{8EDF4429-251A-416D-BB68-93F227191BCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C54BA58F-37D1-4282-8289-41D7120A1B11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C54BA58F-37D1-4282-8289-41D7120A1B11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C54BA58F-37D1-4282-8289-41D7120A1B11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C54BA58F-37D1-4282-8289-41D7120A1B11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EDF4429-251A-416D-BB68-93F227191BCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EDF4429-251A-416D-BB68-93F227191BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EDF4429-251A-416D-BB68-93F227191BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EDF4429-251A-416D-BB68-93F227191BCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C87B1EA6-5459-4FEF-AEC2-566DD88F7F0C}
+	EndGlobalSection
+EndGlobal
